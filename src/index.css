@@ -100,4 +100,47 @@ body {
      justify-content: center;
      height: 100vh;
 }
+@media(max-width: 600px){
+  .square{
+    border: 2px solid white;
+    font-size: 60px;
+    width: 70px;
+    height: 70px;
+  }
+  .status {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  .moveButton, .playagain {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: yellow;
+    background-color: transparent;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    text-emphasis: bold;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  .moveButton:hover, .playagain:hover {
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    background-color: yellow;
+  }
+  .apptitle {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 1px;
+  }
+}
   
